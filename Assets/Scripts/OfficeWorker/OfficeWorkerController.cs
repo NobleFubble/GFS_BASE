@@ -19,7 +19,7 @@ public class OfficeWorkerController : MonoBehaviour
         isHit = false;
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if(agent.remainingDistance <= agent.stoppingDistance && isHit == false) //done with path
         {
