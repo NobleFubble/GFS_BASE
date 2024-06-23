@@ -204,6 +204,7 @@ GameObject:
   m_Component:
   - component: {fileID: 624019051}
   - component: {fileID: 624019052}
+  - component: {fileID: 624019053}
   m_Layer: 0
   m_Name: Collider
   m_TagString: Player
@@ -242,6 +243,27 @@ SphereCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!135 &624019053
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624019050}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -306,6 +328,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1248002273}
   - component: {fileID: 1248002274}
+  - component: {fileID: 1248002275}
   m_Layer: 0
   m_Name: Collider
   m_TagString: Player
@@ -344,6 +367,27 @@ SphereCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!135 &1248002275
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1248002272}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -896,6 +940,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2375909328956465304, guid: 1fb6736fe524fc444a8bf60309bb3696, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: bd2962bbcd60618489f97eb3033fde11, type: 2}
     - target: {fileID: 2756371628570880052, guid: 1fb6736fe524fc444a8bf60309bb3696, type: 3}
       propertyPath: target
       value: 
@@ -904,6 +952,10 @@ PrefabInstance:
       propertyPath: centerPoint
       value: 
       objectReference: {fileID: 2037099164}
+    - target: {fileID: 4707818723034451087, guid: 1fb6736fe524fc444a8bf60309bb3696, type: 3}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5086472326360662536, guid: 1fb6736fe524fc444a8bf60309bb3696, type: 3}
       propertyPath: m_Name
       value: OfficeWorkerTest
