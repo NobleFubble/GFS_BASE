@@ -56,6 +56,22 @@ public class OfficeWorkerController : MonoBehaviour
         }
     }
 
+    void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.tag == "Player" || other.gameObject.tag == "Object")
+        {
+            isHit = true;
+        }
+    }
+    
+    void OnCollisionExit(Collision other)
+    {
+        if (other.gameObject.tag == "Player" || other.gameObject.tag == "Object")
+        {
+            isHit = false;
+        }
+    }
+
     void FaceTarget()
     {
         Vector3 direction = (target.position - transform.position).normalized;
