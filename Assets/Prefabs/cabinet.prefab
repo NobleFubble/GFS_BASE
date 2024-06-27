@@ -135,7 +135,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 10
+  m_Constraints: 118
   m_CollisionDetection: 2
 --- !u!114 &3661488611678023294
 MonoBehaviour:
@@ -268,14 +268,14 @@ SpringJoint:
   m_GameObject: {fileID: 3186530259171938917}
   m_ConnectedBody: {fileID: 0}
   m_ConnectedArticulationBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 0.008534887, z: 0}
+  m_Anchor: {x: 0, y: 0.0057, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 3.5416565, y: 0.23206961, z: 2.8811636}
   serializedVersion: 2
-  m_Spring: 800
+  m_Spring: 1500
   m_Damper: 200
   m_MinDistance: 0
-  m_MaxDistance: 2
+  m_MaxDistance: 0
   m_Tolerance: 0.025
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
@@ -359,8 +359,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0061604166, y: 0.0076871514, z: 0.0006193454}
-  m_Center: {x: 0.00000002026558, y: 0.0015659189, z: -0.001589305}
+  m_Size: {x: 0.0059316047, y: 0.0076871514, z: 0.00061934534}
+  m_Center: {x: 0.0001144259, y: 0.0015659188, z: -0.001589305}
 --- !u!65 &3086975553557171646
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -380,8 +380,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0061604166, y: 0.00041509158, z: 0.0020741872}
-  m_Center: {x: 0.00000002026558, y: 0.0053219157, z: -0.00021514206}
+  m_Size: {x: 0.005952093, y: 0.0004150914, z: 0.0020741872}
+  m_Center: {x: 0.00010418205, y: 0.0053219157, z: -0.00021514203}
 --- !u!65 &6780305672636910160
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -422,5 +422,5 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.00069976924, y: 0.007165835, z: 0.0020741872}
-  m_Center: {x: -0.002861951, y: 0.0013529441, z: -0.00021514208}
+  m_Size: {x: 0.00046781544, y: 0.0072713126, z: 0.0020741872}
+  m_Center: {x: -0.0027459743, y: 0.0014056831, z: -0.00021514203}
