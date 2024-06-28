@@ -150,6 +150,7 @@ GameObject:
   - component: {fileID: 5709498551739489652}
   - component: {fileID: 1150266136445736374}
   - component: {fileID: 4766365171082515283}
+  - component: {fileID: 4566230739840729863}
   m_Layer: 0
   m_Name: FireExtuingisher
   m_TagString: Untagged
@@ -407,6 +408,29 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.002, y: 0.002, z: 0.006}
   m_Center: {x: 0.00022409821, y: 0.0000010880756, z: -0.0020694314}
+--- !u!114 &4566230739840729863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7033874557076761512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0a1302d0d134fa8a2a5b3bf4aec3c20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PermittedDisplacementAxes: 7
+  m_ConstrainedAxisDisplacementMode: 1
+  m_TwoHandedRotationMode: 1
+  m_AllowOneHandedScaling: 1
+  m_AllowTwoHandedScaling: 0
+  m_OneHandedScaleSpeed: 0.5
+  m_ThresholdMoveRatioForScale: 0.05
+  m_ClampScaling: 1
+  m_MinimumScaleRatio: 0.25
+  m_MaximumScaleRatio: 2
+  m_ScaleMultiplier: 0.25
 --- !u!1 &7133215982800566796
 GameObject:
   m_ObjectHideFlags: 0
