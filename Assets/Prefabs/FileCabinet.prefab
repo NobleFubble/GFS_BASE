@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 7649383851629416376}
   m_Layer: 0
   m_Name: FileCabinet
-  m_TagString: Untagged
+  m_TagString: Environment
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -767,7 +767,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 506514213654863806, guid: 0be1e3d128b208344ba645b0e1b3de76, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.001531
+      value: -0.00161
       objectReference: {fileID: 0}
     - target: {fileID: 506514213654863806, guid: 0be1e3d128b208344ba645b0e1b3de76, type: 3}
       propertyPath: m_LocalPosition.z
@@ -804,6 +804,10 @@ PrefabInstance:
     - target: {fileID: 3186530259171938917, guid: 0be1e3d128b208344ba645b0e1b3de76, type: 3}
       propertyPath: m_Name
       value: cabinet
+      objectReference: {fileID: 0}
+    - target: {fileID: 3661488611678023294, guid: 0be1e3d128b208344ba645b0e1b3de76, type: 3}
+      propertyPath: m_Colliders.Array.size
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
