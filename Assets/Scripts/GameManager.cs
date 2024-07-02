@@ -43,4 +43,9 @@ public class GameManager : MonoBehaviour
             progressBar.SetProgress(points * 1.2f);
         }
     }
+
+    public void GameOver()
+    {
+        Debug.Log("Game Over");
+    }
 }

@@ -296,7 +296,19 @@ PrefabInstance:
     m_TransformParent: {fileID: 1298734372}
     m_Modifications:
     - target: {fileID: 5472300037102399948, guid: dc5be162b7ca2964ab1ed4a98e3f4cff, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5472300037102399948, guid: dc5be162b7ca2964ab1ed4a98e3f4cff, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5472300037102399948, guid: dc5be162b7ca2964ab1ed4a98e3f4cff, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7030064023414715989, guid: dc5be162b7ca2964ab1ed4a98e3f4cff, type: 3}
+      propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7030064023414715989, guid: dc5be162b7ca2964ab1ed4a98e3f4cff, type: 3}
@@ -2391,21 +2403,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2724397482410098014, guid: 85b329b329198424ea8a6678057e3fc5, type: 3}
-      propertyPath: CollisionModule.collisionMessages
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2724397482410098014, guid: 85b329b329198424ea8a6678057e3fc5, type: 3}
-      propertyPath: CollisionModule.multiplyColliderForceByParticleSpeed
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2842317432825236130, guid: 85b329b329198424ea8a6678057e3fc5, type: 3}
       propertyPath: m_Name
       value: FireExtuingisher
-      objectReference: {fileID: 0}
-    - target: {fileID: 6391299242710817051, guid: 85b329b329198424ea8a6678057e3fc5, type: 3}
-      propertyPath: m_UseDynamicAttach
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

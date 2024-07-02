@@ -16,6 +16,10 @@ public class ProgressBar : MonoBehaviour
 
     public void SetProgress(float progress)
     {
+        if  (slider.value + progress >= 100)
+        {
+            gameManager.GameOver();
+        }
         slider.value += progress;
     }
 }
