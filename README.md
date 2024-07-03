@@ -2,7 +2,11 @@ Bu Proje Coşkunöz Eğitim Vakfı'nda düzenlenen proje yarışması için geli
 
 Ekip üyeleri:
 Serhat B. Cömert
+
 A. Tunahan Güngör
+
 Kayra Yusuf Püsküllü
+
 Ege Berk Şahan
+
 Hanife Naz Yılmaz
