@@ -10173,9 +10173,11 @@ GameObject:
   - component: {fileID: 6391299242710817051}
   - component: {fileID: 6958582352435629048}
   - component: {fileID: 4820340373171215297}
+  - component: {fileID: 6258942053360100300}
+  - component: {fileID: 3994023759655055848}
   m_Layer: 0
   m_Name: FireExtuingisher
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10189,7 +10191,7 @@ Transform:
   m_GameObject: {fileID: 6898133540247321234}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 5.122, y: 0.681, z: 7.758}
+  m_LocalPosition: {x: 0.12779856, y: 0.681, z: -0.15150023}
   m_LocalScale: {x: 100, y: 100, z: 100}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -10501,6 +10503,40 @@ MonoBehaviour:
   m_MinimumScaleRatio: 0.25
   m_MaximumScaleRatio: 2
   m_ScaleMultiplier: 0.25
+--- !u!114 &6258942053360100300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6898133540247321234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a806ab3cf7607d44ad0e3b22ed75be1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 3
+--- !u!65 &3994023759655055848
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6898133540247321234}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.002199872, y: 0.002310538, z: 0.006794148}
+  m_Center: {x: 0.00022410008, y: 0.0000010880756, z: -0.0020694314}
 --- !u!1 &7709064698189572440
 GameObject:
   m_ObjectHideFlags: 0
@@ -10533,7 +10569,7 @@ Transform:
   m_GameObject: {fileID: 7709064698189572440}
   serializedVersion: 2
   m_LocalRotation: {x: -0.50000006, y: -0.49999997, z: 0.50000006, w: 0.49999997}
-  m_LocalPosition: {x: 5.012, y: 0.27988568, z: 7.758}
+  m_LocalPosition: {x: 0.0178, y: 0.27988568, z: -0.1515}
   m_LocalScale: {x: 32.62155, y: 1.1376752, z: 1.1376753}
   m_ConstrainProportionsScale: 0
   m_Children:

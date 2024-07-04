@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 4619249652682195377}
   - component: {fileID: 6300405570957707226}
   - component: {fileID: 5451353374081842254}
+  - component: {fileID: -8646469513954358180}
   m_Layer: 0
   m_Name: Lighter
-  m_TagString: Untagged
+  m_TagString: Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65,9 +66,9 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b382692e3d0386f42aec19cf03f5ee79, type: 2}
-  - {fileID: 2100000, guid: 8416ece0271d4804cb14ab39d88ed92e, type: 2}
-  - {fileID: 2100000, guid: ce3bd556c081c5949b9ac7dae34bd265, type: 2}
+  - {fileID: -354735261257320667, guid: 915105ca542a08847998122255101207, type: 3}
+  - {fileID: -469649698186968152, guid: 915105ca542a08847998122255101207, type: 3}
+  - {fileID: 1877244072416195789, guid: 915105ca542a08847998122255101207, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -304,6 +305,19 @@ MonoBehaviour:
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
   m_FarAttachMode: 1
+--- !u!114 &-8646469513954358180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1945531982071541282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a806ab3cf7607d44ad0e3b22ed75be1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points: 2
 --- !u!1 &8415304330057719463
 GameObject:
   m_ObjectHideFlags: 0

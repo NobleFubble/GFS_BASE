@@ -9,6 +9,8 @@ TagManager:
   - Electronics
   - NPC
   - Environment
+  - Meteor
+  - Object
   layers:
   - Default
   - TransparentFX
