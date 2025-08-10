@@ -1,13 +1,13 @@
-Bu Proje Coşkunöz Eğitim Vakfı'nda düzenlenen proje yarışması için geliştirilmiştir
+This project was developed for a project competition held by the Coşkunöz Education Foundation.
 
-Ekip üyeleri:
+Team members:
 
-Serhat B. Cömert
+Serhat B. Cömert: Unity Developer
 
-A. Tunahan Güngör
+A. Tunahan Güngör: Unity Developer
 
-Kayra Yusuf Püsküllü
+Kayra Yusuf Püsküllü: Scene Designer
 
-Ege Berk Şahan
+Ege Berk Şahan: 3D Artist
 
-Hanife Naz Yılmaz
+Hanife Naz Yılmaz: 3D Artist
